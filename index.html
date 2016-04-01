@@ -1,1 +1,1098 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Little Monster</title>
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="57x57" href="image/icon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="image/icon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="image/icon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="image/icon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="image/icon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="image/icon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="image/icon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="image/icon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="image/icon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="image/icon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="image/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="image/icon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="image/icon/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/shop-homepage.css" rel="stylesheet">
+	<link href="css/round-about.css" rel="stylesheet">
+	<link href="css/the-big-picture.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body style="background-color:#ffffff;">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color: #ffffff;border-color: #ffffff;">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<img src="image/logo.png" style="margin:10px;width:60px;">
+                
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Beranda</a>
+                    </li>
+                    <li>
+                        <a href="#">Layanan</a>
+                    </li>
+                    <li>
+                        <a href="#">Kontak Kami</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+<!--
+            <div class="col-md-3">
+                <p class="lead">Shop Name</p>
+                <div class="list-group">
+                    <a href="#" class="list-group-item">Category 1</a>
+                    <a href="#" class="list-group-item">Category 2</a>
+                    <a href="#" class="list-group-item">Category 3</a>
+                </div>
+            </div>
+-->
+	<div class="carousel-holder">
+
+                    
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+							<!-- ukuran poster 800x300 -->
+                            <div class="carousel-inner" style="max-width:100%;max-height: 500px !important;">
+                                <div class="item active">
+                                    <img class="slide-image" src="image/poster.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img class="slide-image" src="image/poster.jpg" alt="">
+                                </div>
+								 <div class="item">
+                                    <img class="slide-image" src="image/poster.jpg" alt="">
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                    
+
+	</div>
+
+
+            <div class="col-md-12">
+
+               <!-- Modal Image View -->
+			   
+			   <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body" style="color:#000000;">
+							<img src="image/a1.png" alt="" class="img-responsive">
+							<h3>Little Monster Shirt <small>Cotton Combed 30s</small></h3>
+							<dl>
+								<dt>Ukuran</dt>
+								<dd>L</dd>
+							  <dt>Bahan</dt>
+							  <dd>Cotton Combad 30s</dd>
+							  <dt>Design</dt>
+							  <dd>Sablon Kualitas Tinggi</dd>
+							  <dd>Tidak mudah luntur dan rusak</dd>
+							  <dt>Harga</dt>
+							  <dd>Rp.85.000,- Belum termasuk Ongkir</dd>
+							</dl>
+						</div>
+					</div>
+				  </div>
+				</div>
+				
+				<div id="myModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body" style="color:#000000;">
+							<img src="image/a2.png" alt="" class="img-responsive">
+							<h3>Little Monster Shirt <small>Cotton Combed 30s</small></h3>
+							<dl>
+								<dt>Ukuran</dt>
+								<dd>L</dd>
+							  <dt>Bahan</dt>
+							  <dd>Cotton Combad 30s</dd>
+							  <dt>Design</dt>
+							  <dd>Sablon Kualitas Tinggi</dd>
+							  <dd>Tidak mudah luntur dan rusak</dd>
+							  <dt>Harga</dt>
+							  <dd>Rp.85.000,- Belum termasuk Ongkir</dd>
+							</dl>
+						</div>
+					</div>
+				  </div>
+				</div>
+				
+				<div id="myModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body" style="color:#000000;">
+							<img src="image/a3.png" alt="" class="img-responsive">
+							<h3>Little Monster Shirt <small>Cotton Combed 30s</small></h3>
+							<dl>
+								<dt>Ukuran</dt>
+								<dd>L</dd>
+							  <dt>Bahan</dt>
+							  <dd>Cotton Combad 30s</dd>
+							  <dt>Design</dt>
+							  <dd>Sablon Kualitas Tinggi</dd>
+							  <dd>Tidak mudah luntur dan rusak</dd>
+							  <dt>Harga</dt>
+							  <dd>Rp.85.000,- Belum termasuk Ongkir</dd>
+							</dl>
+						</div>
+					</div>
+				  </div>
+				</div>
+				
+				<div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body" style="color:#000000;">
+							<img src="image/a4.png" alt="" class="img-responsive">
+							<h3>Little Monster Shirt <small>Cotton Combed 30s</small></h3>
+							<dl>
+								<dt>Ukuran</dt>
+								<dd>L</dd>
+							  <dt>Bahan</dt>
+							  <dd>Cotton Combad 30s</dd>
+							  <dt>Design</dt>
+							  <dd>Sablon Kualitas Tinggi</dd>
+							  <dd>Tidak mudah luntur dan rusak</dd>
+							  <dt>Harga</dt>
+							  <dd>Rp.85.000,- Belum termasuk Ongkir</dd>
+							</dl>
+						</div>
+					</div>
+				  </div>
+				</div>
+				
+				<div id="myModal4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body" style="color:#000000;">
+							<img src="image/a5.png" alt="" class="img-responsive">
+							<h3>Little Monster Shirt <small>Cotton Combed 30s</small></h3>
+							<dl>
+								<dt>Ukuran</dt>
+								<dd>L</dd>
+							  <dt>Bahan</dt>
+							  <dd>Cotton Combad 30s</dd>
+							  <dt>Design</dt>
+							  <dd>Sablon Kualitas Tinggi</dd>
+							  <dd>Tidak mudah luntur dan rusak</dd>
+							  <dt>Harga</dt>
+							  <dd>Rp.85.000,- Belum termasuk Ongkir</dd>
+							</dl>
+						</div>
+					</div>
+				  </div>
+				</div>
+				
+				<div id="myModal5" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body" style="color:#000000;">
+							<img src="image/a6.png" alt="" class="img-responsive">
+							<h3>Little Monster Shirt <small>Cotton Combed 30s</small></h3>
+							<dl>
+								<dt>Ukuran</dt>
+								<dd>L</dd>
+							  <dt>Bahan</dt>
+							  <dd>Cotton Combad 30s</dd>
+							  <dt>Design</dt>
+							  <dd>Sablon Kualitas Tinggi</dd>
+							  <dd>Tidak mudah luntur dan rusak</dd>
+							  <dt>Harga</dt>
+							  <dd>Rp.85.000,- Belum termasuk Ongkir</dd>
+							</dl>
+						</div>
+					</div>
+				  </div>
+				</div>
+				
+				<div id="myModal6" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body" style="color:#000000;">
+							<img src="image/a7.png" alt="" class="img-responsive">
+							<h3>Little Monster Shirt <small>Cotton Combed 30s</small></h3>
+							<dl>
+								<dt>Ukuran</dt>
+								<dd>L</dd>
+							  <dt>Bahan</dt>
+							  <dd>Cotton Combad 30s</dd>
+							  <dt>Design</dt>
+							  <dd>Sablon Kualitas Tinggi</dd>
+							  <dd>Tidak mudah luntur dan rusak</dd>
+							  <dt>Harga</dt>
+							  <dd>Rp.85.000,- Belum termasuk Ongkir</dd>
+							</dl>
+						</div>
+					</div>
+				  </div>
+				</div>
+				
+				<div id="myModal7" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body" style="color:#000000;">
+							<img src="image/a8.png" alt="" class="img-responsive">
+							<h3>Little Monster Shirt <small>Cotton Combed 30s</small></h3>
+							<dl>
+								<dt>Ukuran</dt>
+								<dd>L</dd>
+							  <dt>Bahan</dt>
+							  <dd>Cotton Combad 30s</dd>
+							  <dt>Design</dt>
+							  <dd>Sablon Kualitas Tinggi</dd>
+							  <dd>Tidak mudah luntur dan rusak</dd>
+							  <dt>Harga</dt>
+							  <dd>Rp.85.000,- Belum termasuk Ongkir</dd>
+							</dl>
+						</div>
+					</div>
+				  </div>
+				</div>
+				
+				<div id="myModal8" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body" style="color:#000000;">
+							<img src="image/a9.png" alt="" class="img-responsive">
+							<h3>Little Monster Shirt <small>Cotton Combed 30s</small></h3>
+							<dl>
+								<dt>Ukuran</dt>
+								<dd>L</dd>
+							  <dt>Bahan</dt>
+							  <dd>Cotton Combad 30s</dd>
+							  <dt>Design</dt>
+							  <dd>Sablon Kualitas Tinggi</dd>
+							  <dd>Tidak mudah luntur dan rusak</dd>
+							  <dt>Harga</dt>
+							  <dd>Rp.85.000,- Belum termasuk Ongkir</dd>
+							</dl>
+						</div>
+					</div>
+				  </div>
+				</div>
+				
+				<div id="myModal9" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body" style="color:#000000;">
+							<img src="image/a10.png" alt="" class="img-responsive">
+							<h3>Little Monster Shirt <small>Cotton Combed 30s</small></h3>
+							<dl>
+								<dt>Ukuran</dt>
+								<dd>L</dd>
+							  <dt>Bahan</dt>
+							  <dd>Cotton Combad 30s</dd>
+							  <dt>Design</dt>
+							  <dd>Sablon Kualitas Tinggi</dd>
+							  <dd>Tidak mudah luntur dan rusak</dd>
+							  <dt>Harga</dt>
+							  <dd>Rp.85.000,- Belum termasuk Ongkir</dd>
+							</dl>
+						</div>
+					</div>
+				  </div>
+				</div>
+				
+				<div id="myModal10" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body" style="color:#000000;">
+							<img src="image/a11.png" alt="" class="img-responsive">
+							<h3>Little Monster Shirt <small>Cotton Combed 30s</small></h3>
+							<dl>
+								<dt>Ukuran</dt>
+								<dd>L</dd>
+							  <dt>Bahan</dt>
+							  <dd>Cotton Combad 30s</dd>
+							  <dt>Design</dt>
+							  <dd>Sablon Kualitas Tinggi</dd>
+							  <dd>Tidak mudah luntur dan rusak</dd>
+							  <dt>Harga</dt>
+							  <dd>Rp.85.000,- Belum termasuk Ongkir</dd>
+							</dl>
+						</div>
+					</div>
+				  </div>
+				</div>
+				
+				<div id="myModal11" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body" style="color:#000000;">
+							<img src="image/a12.png" alt="" class="img-responsive">
+							<h3>Little Monster Shirt <small>Cotton Combed 30s</small></h3>
+							<dl>
+								<dt>Ukuran</dt>
+								<dd>L</dd>
+							  <dt>Bahan</dt>
+							  <dd>Cotton Combad 30s</dd>
+							  <dt>Design</dt>
+							  <dd>Sablon Kualitas Tinggi</dd>
+							  <dd>Tidak mudah luntur dan rusak</dd>
+							  <dt>Harga</dt>
+							  <dd>Rp.85.000,- Belum termasuk Ongkir</dd>
+							</dl>
+						</div>
+					</div>
+				  </div>
+				</div>
+				
+				<div id="myModal12" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body" style="color:#000000;">
+							<img src="image/a13.png" alt="" class="img-responsive">
+							<h3>Little Monster Shirt <small>Cotton Combed 30s</small></h3>
+							<dl>
+								<dt>Ukuran</dt>
+								<dd>L</dd>
+							  <dt>Bahan</dt>
+							  <dd>Cotton Combad 30s</dd>
+							  <dt>Design</dt>
+							  <dd>Sablon Kualitas Tinggi</dd>
+							  <dd>Tidak mudah luntur dan rusak</dd>
+							  <dt>Harga</dt>
+							  <dd>Rp.85.000,- Belum termasuk Ongkir</dd>
+							</dl>
+						</div>
+					</div>
+				  </div>
+				</div>
+				
+				<div id="myModal13" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body" style="color:#000000;">
+							<img src="image/a14.png" alt="" class="img-responsive">
+							<h3>Little Monster Shirt <small>Cotton Combed 30s</small></h3>
+							<dl>
+								<dt>Ukuran</dt>
+								<dd>L</dd>
+							  <dt>Bahan</dt>
+							  <dd>Cotton Combad 30s</dd>
+							  <dt>Design</dt>
+							  <dd>Sablon Kualitas Tinggi</dd>
+							  <dd>Tidak mudah luntur dan rusak</dd>
+							  <dt>Harga</dt>
+							  <dd>Rp.85.000,- Belum termasuk Ongkir</dd>
+							</dl>
+						</div>
+					</div>
+				  </div>
+				</div>
+				
+				<div id="myModal14" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body" style="color:#000000;">
+							<img src="image/a15.png" alt="" class="img-responsive">
+							<h3>Little Monster Shirt <small>Cotton Combed 30s</small></h3>
+							<dl>
+								<dt>Ukuran</dt>
+								<dd>L</dd>
+							  <dt>Bahan</dt>
+							  <dd>Cotton Combad 30s</dd>
+							  <dt>Design</dt>
+							  <dd>Sablon Kualitas Tinggi</dd>
+							  <dd>Tidak mudah luntur dan rusak</dd>
+							  <dt>Harga</dt>
+							  <dd>Rp.85.000,- Belum termasuk Ongkir</dd>
+							</dl>
+						</div>
+					</div>
+				  </div>
+				</div>
+				
+				<div id="myModal15" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body" style="color:#000000;">
+							<img src="image/a16.png" alt="" class="img-responsive">
+							<h3>Little Monster Shirt <small>Cotton Combed 30s</small></h3>
+							<dl>
+								<dt>Ukuran</dt>
+								<dd>L</dd>
+							  <dt>Bahan</dt>
+							  <dd>Cotton Combad 30s</dd>
+							  <dt>Design</dt>
+							  <dd>Sablon Kualitas Tinggi</dd>
+							  <dd>Tidak mudah luntur dan rusak</dd>
+							  <dt>Harga</dt>
+							  <dd>Rp.85.000,- Belum termasuk Ongkir</dd>
+							</dl>
+						</div>
+					</div>
+				  </div>
+				</div>
+				
+				<div id="myModal16" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body" style="color:#000000;">
+							<img src="image/a17.png" alt="" class="img-responsive">
+							<h3>Little Monster Shirt <small>Cotton Combed 30s</small></h3>
+							<dl>
+								<dt>Ukuran</dt>
+								<dd>L</dd>
+							  <dt>Bahan</dt>
+							  <dd>Cotton Combad 30s</dd>
+							  <dt>Design</dt>
+							  <dd>Sablon Kualitas Tinggi</dd>
+							  <dd>Tidak mudah luntur dan rusak</dd>
+							  <dt>Harga</dt>
+							  <dd>Rp.85.000,- Belum termasuk Ongkir</dd>
+							</dl>
+						</div>
+					</div>
+				  </div>
+				</div>
+				
+				<div id="myModal17" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-body" style="color:#000000;">
+							<img src="image/a18.png" alt="" class="img-responsive">
+							<h3>Little Monster Shirt <small>Cotton Combed 30s</small></h3>
+							<dl>
+								<dt>Ukuran</dt>
+								<dd>L</dd>
+							  <dt>Bahan</dt>
+							  <dd>Cotton Combad 30s</dd>
+							  <dt>Design</dt>
+							  <dd>Sablon Kualitas Tinggi</dd>
+							  <dd>Tidak mudah luntur dan rusak</dd>
+							  <dt>Harga</dt>
+							  <dd>Rp.85.000,- Belum termasuk Ongkir</dd>
+							</dl>
+						</div>
+					</div>
+				  </div>
+				</div>
+         <!-- End Modal Image View -->
+
+                <div class="row">
+					<!-- ukuran gambar item 320x150 -->
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="image/a1.png" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.85.000,-</h4>
+                                <h4><a href="#">Little Monster Cloth</a>
+                                </h4>
+                                <p>Diskon 10% untuk pembeli pertama | Untuk memesan hubungi kami : <a target="_blank" href="#">085854022145</a>.</p>
+								<p>
+								<a href="#" class="btn btn-primary">Beli</a> <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal">Detail</a>
+							</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 Menyukai</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+					
+					 <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="image/a2.png" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.85.000,-</h4>
+                                <h4><a href="#">Little Monster Cloth</a>
+                                </h4>
+                                <p>Diskon 10% untuk pembeli pertama | Untuk memesan hubungi kami : <a target="_blank" href="#">085854022145</a>.</p>
+								<p>
+								<a href="#" class="btn btn-primary">Beli</a> <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal1">Detail</a>
+							</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 Menyukai</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+					
+					 <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="image/a3.png" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.85.000,-</h4>
+                                <h4><a href="#">Little Monster Cloth</a>
+                                </h4>
+                                <p>Diskon 10% untuk pembeli pertama | Untuk memesan hubungi kami : <a target="_blank" href="#">085854022145</a>.</p>
+								<p>
+								<a href="#" class="btn btn-primary">Beli</a> <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal2">Detail</a>
+							</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 Menyukai</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+					
+					 <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="image/a4.png" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.85.000,-</h4>
+                                <h4><a href="#">Little Monster Cloth</a>
+                                </h4>
+                                <p>Diskon 10% untuk pembeli pertama | Untuk memesan hubungi kami : <a target="_blank" href="#">085854022145</a>.</p>
+								<p>
+								<a href="#" class="btn btn-primary">Beli</a> <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal3">Detail</a>
+							</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 Menyukai</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+					
+					 <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="image/a5.png" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.85.000,-</h4>
+                                <h4><a href="#">Little Monster Cloth</a>
+                                </h4>
+                                <p>Diskon 10% untuk pembeli pertama | Untuk memesan hubungi kami : <a target="_blank" href="#">085854022145</a>.</p>
+								<p>
+								<a href="#" class="btn btn-primary">Beli</a> <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal4">Detail</a>
+							</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 Menyukai</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+					
+					 <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="image/a6.png" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.85.000,-</h4>
+                                <h4><a href="#">Little Monster Cloth</a>
+                                </h4>
+                                <p>Diskon 10% untuk pembeli pertama | Untuk memesan hubungi kami : <a target="_blank" href="#">085854022145</a>.</p>
+								<p>
+								<a href="#" class="btn btn-primary">Beli</a> <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal5">Detail</a>
+							</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 Menyukai</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+					
+					 <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="image/a7.png" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.85.000,-</h4>
+                                <h4><a href="#">Little Monster Cloth</a>
+                                </h4>
+                                <p>Diskon 10% untuk pembeli pertama | Untuk memesan hubungi kami : <a target="_blank" href="#">085854022145</a>.</p>
+								<p>
+								<a href="#" class="btn btn-primary">Beli</a> <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal6">Detail</a>
+							</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 Menyukai</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+					
+					 <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="image/a8.png" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.85.000,-</h4>
+                                <h4><a href="#">Little Monster Cloth</a>
+                                </h4>
+                                <p>Diskon 10% untuk pembeli pertama | Untuk memesan hubungi kami : <a target="_blank" href="#">085854022145</a>.</p>
+								<p>
+								<a href="#" class="btn btn-primary">Beli</a> <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal7">Detail</a>
+							</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 Menyukai</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+					
+					 <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="image/a9.png" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.85.000,-</h4>
+                                <h4><a href="#">Little Monster Cloth</a>
+                                </h4>
+                                <p>Diskon 10% untuk pembeli pertama | Untuk memesan hubungi kami : <a target="_blank" href="#">085854022145</a>.</p>
+								<p>
+								<a href="#" class="btn btn-primary">Beli</a> <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal8">Detail</a>
+							</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 Menyukai</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+					
+					 <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="image/a10.png" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.85.000,-</h4>
+                                <h4><a href="#">Little Monster Cloth</a>
+                                </h4>
+                                <p>Diskon 10% untuk pembeli pertama | Untuk memesan hubungi kami : <a target="_blank" href="#">085854022145</a>.</p>
+								<p>
+								<a href="#" class="btn btn-primary">Beli</a> <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal9">Detail</a>
+							</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 Menyukai</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+					
+					 <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="image/a11.png" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.85.000,-</h4>
+                                <h4><a href="#">Little Monster Cloth</a>
+                                </h4>
+                                <p>Diskon 10% untuk pembeli pertama | Untuk memesan hubungi kami : <a target="_blank" href="#">085854022145</a>.</p>
+								<p>
+								<a href="#" class="btn btn-primary">Beli</a> <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal10">Detail</a>
+							</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 Menyukai</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+					
+					 <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="image/a12.png" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.85.000,-</h4>
+                                <h4><a href="#">Little Monster Cloth</a>
+                                </h4>
+                                <p>Diskon 10% untuk pembeli pertama | Untuk memesan hubungi kami : <a target="_blank" href="#">085854022145</a>.</p>
+								<p>
+								<a href="#" class="btn btn-primary">Beli</a> <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal11">Detail</a>
+							</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 Menyukai</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+					
+					 <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="image/a13.png" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.85.000,-</h4>
+                                <h4><a href="#">Little Monster Cloth</a>
+                                </h4>
+                                <p>Diskon 10% untuk pembeli pertama | Untuk memesan hubungi kami : <a target="_blank" href="#">085854022145</a>.</p>
+								<p>
+								<a href="#" class="btn btn-primary">Beli</a> <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal12">Detail</a>
+							</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 Menyukai</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+					
+					 <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="image/a14.png" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.85.000,-</h4>
+                                <h4><a href="#">Little Monster Cloth</a>
+                                </h4>
+                                <p>Diskon 10% untuk pembeli pertama | Untuk memesan hubungi kami : <a target="_blank" href="#">085854022145</a>.</p>
+								<p>
+								<a href="#" class="btn btn-primary">Beli</a> <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal13">Detail</a>
+							</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 Menyukai</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+					
+					 <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="image/a15.png" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.85.000,-</h4>
+                                <h4><a href="#">Little Monster Cloth</a>
+                                </h4>
+                                <p>Diskon 10% untuk pembeli pertama | Untuk memesan hubungi kami : <a target="_blank" href="#">085854022145</a>.</p>
+								<p>
+								<a href="#" class="btn btn-primary">Beli</a> <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal14">Detail</a>
+							</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 Menyukai</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+					
+					 <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="image/a16.png" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.85.000,-</h4>
+                                <h4><a href="#">Little Monster Cloth</a>
+                                </h4>
+                                <p>Diskon 10% untuk pembeli pertama | Untuk memesan hubungi kami : <a target="_blank" href="#">085854022145</a>.</p>
+								<p>
+								<a href="#" class="btn btn-primary">Beli</a> <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal15">Detail</a>
+							</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 Menyukai</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+					
+					 <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="image/a17.png" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.85.000,-</h4>
+                                <h4><a href="#">Little Monster Cloth</a>
+                                </h4>
+                                <p>Diskon 10% untuk pembeli pertama | Untuk memesan hubungi kami : <a target="_blank" href="#">085854022145</a>.</p>
+								<p>
+								<a href="#" class="btn btn-primary">Beli</a> <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal16">Detail</a>
+							</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 Menyukai</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+					
+					 <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="image/a18.png" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">Rp.85.000,-</h4>
+                                <h4><a href="#">Little Monster Cloth</a>
+                                </h4>
+                                <p>Diskon 10% untuk pembeli pertama | Untuk memesan hubungi kami : <a target="_blank" href="#">085854022145</a>.</p>
+								<p>
+								<a href="#" class="btn btn-primary">Beli</a> <a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal17">Detail</a>
+							</p>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">15 Menyukai</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+					
+					
+					
+					
+                </div><!-- end row -->
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <!-- Introduction Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Siapa Kami ?
+                    <small>Little Monster</small>
+                </h1>
+                <p>Little Monster adalah situs e-commerce yang sedang berkembang dan memiliki team yang sangat solid yang mahir dalam bidang bisnis.</p>
+            </div>
+        </div>
+
+        <!-- Team Members Row ukuran foto 200x200 bulat-->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Tim Kami</h2>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="image/mve.png" alt="" style="width:200px;">
+                <h3>Mvie
+                    <small>Owner</small>
+                </h3>
+                <p>Pekerjaan yang paling enak itu adalah hobi yang dibayar.</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="image/team.png" alt="" style="width:200px;">
+                <h3>Jono
+                    <small>Design Grafis</small>
+                </h3>
+                <p>Perancang sablon berkualitas dan leader design terhadap semua produk Little Monster</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="image/team.png" alt="" style="width:200px;">
+                <h3>Jini
+                    <small>Staff Leader</small>
+                </h3>
+                <p>Mengurus semua keperluan managerial yang ada di Little Monster</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+			<div class="row">
+				<div class="col-md-6 col-sm-12">
+					<h1>Little Monster Inc</h1>
+					<address>
+					  <strong>Little Monster, Inc.</strong><br>
+					  Distro Market Street, Rengas Bandung<br>
+					  Cikarang, Jawa Barat 17530<br>
+					  <abbr title="Phone">Phone:</abbr> 085854022145
+					</address>
+
+					<address>
+					  <strong>Pemilik</strong><br>
+					  <a href="https://www.facebook.com/empi.supriatna.33">Mvie Supriatna</a>
+					</address>																														
+				</div>
+			</div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Little Monster &copy;2016 | Template Bootstrap</p>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	<!-- Modal Image View -->
+	<script>
+		function centerModal() {
+			$(this).css('display', 'block');
+			var $dialog = $(this).find(".modal-dialog");
+			var offset = ($(window).height() - $dialog.height()) / 2;
+			// Center modal vertically in window
+			$dialog.css("margin-top", offset);
+		}
+
+		$('.modal').on('show.bs.modal', centerModal);
+		$(window).on("resize", function () {
+			$('.modal:visible').each(centerModal);
+		});
+	</script>
+
+</body>
+
+</html>
+<!-- 
+angga sebagai staff leader
+wardi as design
+-->
